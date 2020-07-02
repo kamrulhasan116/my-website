@@ -1,0 +1,142 @@
+body{
+margin: 0;
+font-family: 'Playfair Display', serif;
+
+}
+
+.half-width{
+
+    width: 40%;
+    margin-left: 5%;
+    padding left: 2%;
+    float: left;
+}
+
+.half-width img{
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+.red-highlight{
+    color: red;
+
+}
+ a{
+
+    text-decoration: none;
+    color: tomato;
+
+}
+a:hover{
+    color: yellowgreen;
+    font-size: 20px;
+    
+}
+.half-width p{
+    text-align: justify;
+    color: rgb(9, 80, 24);
+}
+.top-banner{
+
+    background-image: url("image2/header-bg.png");
+    background-repeat: no-repeat;
+
+}
+section{
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+
+.link-button{
+
+    text-decoration: none;
+    background-image: linear-gradient(45deg, green, tomato);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.link-button:hover{
+    background-color: yellow;
+    color: tomato;
+    font-size: 30px;
+    
+}
+
+
+.middle{
+background-image: url("image2/biography-bg.png");
+background-repeat: no-repeat;
+background-position: right;
+}
+.one-third img{
+    width: 26%;
+    margin-left: 5%;
+    padding left: 3%;
+    float: left;
+    
+
+}
+
+    
+
+h1{
+
+    text-align: center;
+}
+
+.bottom{
+
+background-image: url("image2/latest-work-bg.png");
+background-repeat: no-repeat;
+background-position: right;
+
+}
+.same h4, p{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+#last-div{
+    width: 30%;
+    margin-left: 30%;
+    margin-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 20px 20px 30px rgb(34, 23, 23);
+    transition: width 3s,height 5s;
+    animation-name: example;
+        animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+#last-div:hover{
+    width: 450px;
+    height: 120px;
+}
+
+
+.last-sec{
+
+background-image: url("image2/footer-bg.png");
+background-repeat: no-repeat;
+background-position: left;
+
+}
